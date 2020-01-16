@@ -1,0 +1,19 @@
+{
+    "name": "dujd/test-composer",
+    "description": "test",
+    "require": {
+        "php": ">=7.1"
+    },
+    "authors": [
+        {
+            "name": "jiandongdu",
+            "email": "jiandongdu@linkdoc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Test\\Composer\\": "src/test/composer"
+        }
+    }
+}
